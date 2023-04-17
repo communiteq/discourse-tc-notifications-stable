@@ -1,0 +1,10 @@
+{
+  "name": "Stable 3.0 Push Notifications",
+  "about_url": "https://github.com/communiteq/discourse-tc-notifications-stable",
+  "license_url": "https://github.com/communiteq/discourse-tc-notifications-stable/blob/master/LICENSE",
+  "component": true,
+  "assets": {
+  },
+  "color_schemes": {
+  }
+}
