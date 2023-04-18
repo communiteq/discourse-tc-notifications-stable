@@ -2,6 +2,7 @@ import { withPluginApi } from "discourse/lib/plugin-api";
 import { helperContext } from "discourse-common/lib/helpers";
 import { ajax } from "discourse/lib/ajax";
 import KeyValueStore from "discourse/lib/key-value-store";
+import { userSubscriptionKey } from "discourse/lib/push-notifications";
 
 export default {
   name: "discourse-notifications-stable",
@@ -65,6 +66,7 @@ export default {
                       }
                     });
                 }
+
                 if (this.isEnabledDesktop) {
                     this.set("notificationsDisabled", "disabled");
                     this.notifyPropertyChange("notificationsPermission");
